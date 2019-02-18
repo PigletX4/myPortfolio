@@ -1,0 +1,60 @@
+#hero {
+    height: 34rem;
+    background-color: rgba(1, 1, 1, .5);
+    flex: auto;
+    margin: 0 auto;
+    width: 28em;
+    margin-top: 1em;
+    margin-right: 90%;
+    position: relative;
+}
+
+
+#cardHolder {
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+#projects {
+    height: 34rem;
+    background-color: rgba(1, 1, 1, .5);
+    flex: auto;
+    margin: 0 auto;
+    width: 28em;
+    margin-top: 1em;
+    margin-right: 40%;
+    position: relative;
+}
+
+#holder{
+    background-color: whitesmoke;
+    background-image: url('assets/backdrop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+}
+
+/*#pic{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+*/
+
+#nameTag {
+    color: darkseagreen;
+    width: auto;
+    max-width: fit-content;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -1px;
+}
+
+#description{
+    color: azure;
+    font-size: 20px;
+
+}

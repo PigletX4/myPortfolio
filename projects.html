@@ -10,117 +10,131 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body id="body">
-        
-    <div class='container-fluid' id="holder">
-        
-        <nav class="navbar navbar-nav fixed-bottom navbar-expand-lg navbar-dark bg-dark">
-         
-         <div class="navbar-nav" id="navbarNavAltMarkup">
-          <div class="navbar-nav navbar-collapse" >
-            <li class="nav-item dropup">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  My Profiles
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="https://github.com/PigletX4">Github</a>
-                  <a class="dropdown-item" href="https://www.linkedin.com/in/auri-robbins-phillips-94b805175">Linkedin</a>                 
-                </div>
-            </li>
+  <div class='container-fluid' id="holder">
+    <nav class="navbar navbar-nav fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+      <div class="navbar-nav" id="navbarNavAltMarkup">
+        <div class="navbar-nav navbar-collapse" >
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              My Profiles
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://github.com/PigletX4">Github</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/auri-robbins-phillips-94b805175">Linkedin</a>                 
+            </div>
+          </li>
             <a class='nav-link' href="index.html">About Me</a>
             <a class="nav-link" href="resume.pdf">My Resume</a>
-          </div>
-         </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
         
         <div id="cardHolder">
 
-        <div id="accordion">
+          <div id="accordion">
             <div class="card">
-                          <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                GifTastic
-                              </button>
-                            </h5>
-                          </div>
-                      
-                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                              <p>GifTastic is an easy to use gif search that pulls from the giphy API.</p>
-                              <a href="https://pigletx4.github.io/GifTastic/">Link to the project!</a>
-                              <br>
-                              <a href="https://github.com/PigletX4/GifTastic">Link to the code!</a>
+                            <div class="card-header" id="headingOne">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  GifTastic
+                                </button>
+                              </h5>
                             </div>
-                          </div>
+                        
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>GifTastic is an easy to use gif search that pulls from the giphy API.</p>
+                                <a href="https://pigletx4.github.io/GifTastic/">Link to the project!</a>
+                                <br>
+                                <a href="https://github.com/PigletX4/GifTastic">Link to the code!</a>
+                              </div>
+                            </div>
             </div>
             <div class="card">
-                          <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Train Scheduler
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                              <p>This is a basic schedule site which utilizes the Firebase API to keep track of information.</p>
-                              <a href="https://pigletx4.github.io/TrainSchedule/">Link to the project!</a>
-                              <br>
-                              <a href="https://github.com/PigletX4/TrainSchedule">Link to the code!</a>
+                            <div class="card-header" id="headingTwo">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Train Scheduler
+                                </button>
+                              </h5>
                             </div>
-                          </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>This is a basic schedule site which utilizes the Firebase API to keep track of information.</p>
+                                <a href="https://pigletx4.github.io/TrainSchedule/">Link to the project!</a>
+                                <br>
+                                <a href="https://github.com/PigletX4/TrainSchedule">Link to the code!</a>
+                              </div>
+                            </div>
             </div>
             <div class="card">
-                          <div class="card-header" id="headingThree">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Event Finder
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                              <p>Event Finder is a collaborative project which uses Geolocation to find events near you. I worked mainly on the back-end using the Seatgeek API to parse relevent events.</p>
-                              <a href="https://peterjast.github.io/Project-1/">Link to the project!</a>
-                              <br>
-                              <a href="https://github.com/peterjast/Project-1">Link to the code!</a>
+                            <div class="card-header" id="headingThree">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Event Finder
+                                </button>
+                              </h5>
                             </div>
-                          </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>Event Finder is a collaborative project which uses Geolocation to find events near you. I worked mainly on the back-end using the Seatgeek API to parse relevent events.</p>
+                                <a href="https://peterjast.github.io/Project-1/">Link to the project!</a>
+                                <br>
+                                <a href="https://github.com/peterjast/Project-1">Link to the code!</a>
+                              </div>
+                            </div>
             </div>
             <div class="card">
-                    <div class="card-header" id="headingFour">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          Trivia Game
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                      <div class="card-body">
-                        <p>This is a basic trivia game utilizing a timer, input forms, and score tracking.</p>
-                        <a href="https://pigletx4.github.io/TriviaGame/">Link to the project!</a>
-                        <br>
-                        <a href="https://github.com/PigletX4/TriviaGame">Link to the code!</a>
+                      <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Trivia Game
+                          </button>
+                        </h5>
                       </div>
-                    </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>This is a basic trivia game utilizing a timer, input forms, and score tracking.</p>
+                          <a href="https://pigletx4.github.io/TriviaGame/">Link to the project!</a>
+                          <br>
+                          <a href="https://github.com/PigletX4/TriviaGame">Link to the code!</a>
+                        </div>
+                      </div>
             </div>
             <div class="card">
-              <div class="card-header" id="headingFive">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Friend-Finder
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Friend-Finder is a full-stack application that can take in user inputs in the form of a questionnaire, add them to the local storage database, and present them with the match with the least difference in opinions.</p>
+                    <br>
+                    <a href="https://github.com/PigletX4/Friend-Finder">Link to the code!</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSeven">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    LIRIBot
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+                    Burger App
                   </button>
                 </h5>
               </div>
-              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                 <div class="card-body">
-                  <p>LIRIBot is a node.js application that can retrieve relevent information about: Upcoming Concerts, Movies, and Songs all through the command line.</p>
+                  <p>The Burger App utilizes the ORM model, Handlebars, and Express to take user inputs and interact with a mySql Database. Running on Heroku with the JAWSDB behind the mySql.</p>
+                  <a href="https://burger-express-handlebars.herokuapp.com/">Link to the project!</a>
                   <br>
-                  <a href="https://github.com/PigletX4/LIRIBot">Link to the code!</a>
+                  <a href="https://github.com/PigletX4/burger">Link to the code!</a>
                 </div>
               </div>
-      </div>
-        </div>
+          </div>
+          </div>
             
         </div>
 
